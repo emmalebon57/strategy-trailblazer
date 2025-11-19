@@ -40,6 +40,8 @@ This repository contains a momentum trading strategy implementation based on qua
 
 ## Research Hypothesis
 
+**To test for the stationarity of the data I used an ADF test -  and I tested H_0 : non stationary VS H1 : stationnary if the p_value of the test is smaller than 0.05 than the time seri is sttaionnary
+
 **Primary Hypothesis (H₁)**: Securities exhibiting superior relative performance over intermediate time horizons (3-12 months) will continue to outperform in subsequent periods, driven by behavioral biases and institutional flow dynamics.
 
 **Null Hypothesis (H₀)**: Past price performance has no predictive power for future returns beyond what would be expected from random market movements.
